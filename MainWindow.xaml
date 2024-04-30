@@ -1,0 +1,57 @@
+﻿<Window 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Judo Scoreboard Vertical" SizeToContent="Height" Width="300">
+
+    <StackPanel Orientation="Vertical">
+        <!-- Witgedeelte met twee verticale secties -->
+        <Grid Grid.Row="0" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <!-- Linkerdeel -->
+                <ColumnDefinition Width="1*" />
+                <!-- Rechterdeel -->
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock FontSize="24" Text="Score: 1" />
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock FontSize="24" Text="Shido: 1" />
+            </StackPanel>
+        </Grid>
+
+        <!-- Blauw gedeelte -->
+        <Grid Grid.Row="0" Background="Blue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <!-- Linkerdeel -->
+                <ColumnDefinition Width="1*" />
+                <!-- Rechterdeel -->
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock FontSize="24" Text="Score: 1" Foreground="White"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock FontSize="24" Text="Shido: 1" Foreground="White" />
+            </StackPanel>
+        </Grid>
+
+        <!-- Zwart gedeelte -->
+        <Grid Background="Black" >
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
+                <TextBlock FontSize="20" Foreground="White" Text="GS" />
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <TextBlock FontSize="20" Foreground="White" Text="-90kg" />
+            </StackPanel>
+            <TextBlock FontSize="20" Foreground="White" Text="U21" Margin="63,27,202,0" Height="24" VerticalAlignment="Top"/>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock FontSize="40" Foreground="White" Text="0:00" />
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</Window>
