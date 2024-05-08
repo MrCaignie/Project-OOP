@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Project_Judo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fac35a84356eb2884703564ec854c213d5edfacc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Project_Judo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Project_Judo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
