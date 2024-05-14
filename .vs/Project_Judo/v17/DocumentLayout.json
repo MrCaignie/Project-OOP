@@ -9,6 +9,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{20917390-C9B8-46AE-A329-CD367FA5692A}|Project_Judo.csproj|c:\\users\\hoofdgebruiker\\desktop\\c#\\project_judo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{20917390-C9B8-46AE-A329-CD367FA5692A}|Project_Judo.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20917390-C9B8-46AE-A329-CD367FA5692A}|Project_Judo.csproj|c:\\users\\hoofdgebruiker\\desktop\\c#\\project_judo\\mens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20917390-C9B8-46AE-A329-CD367FA5692A}|Project_Judo.csproj|solutionrelative:mens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20917390-C9B8-46AE-A329-CD367FA5692A}|Project_Judo.csproj|c:\\users\\hoofdgebruiker\\desktop\\c#\\project_judo\\scoredata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20917390-C9B8-46AE-A329-CD367FA5692A}|Project_Judo.csproj|solutionrelative:scoredata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20917390-C9B8-46AE-A329-CD367FA5692A}|Project_Judo.csproj|c:\\users\\hoofdgebruiker\\desktop\\c#\\project_judo\\man.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20917390-C9B8-46AE-A329-CD367FA5692A}|Project_Judo.csproj|solutionrelative:man.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20917390-C9B8-46AE-A329-CD367FA5692A}|Project_Judo.csproj|c:\\users\\hoofdgebruiker\\desktop\\c#\\project_judo\\vrouw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20917390-C9B8-46AE-A329-CD367FA5692A}|Project_Judo.csproj|solutionrelative:vrouw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +50,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Man.cs",
+              "DocumentMoniker": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\Man.cs",
+              "RelativeDocumentMoniker": "Man.cs",
+              "ToolTip": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\Man.cs",
+              "RelativeToolTip": "Man.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:12:39.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vrouw.cs",
+              "DocumentMoniker": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\Vrouw.cs",
+              "RelativeDocumentMoniker": "Vrouw.cs",
+              "ToolTip": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\Vrouw.cs",
+              "RelativeToolTip": "Vrouw.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:11:43.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mens.cs",
+              "DocumentMoniker": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\Mens.cs",
+              "RelativeDocumentMoniker": "Mens.cs",
+              "ToolTip": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\Mens.cs",
+              "RelativeToolTip": "Mens.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:10:31.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScoreData.cs",
+              "DocumentMoniker": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\ScoreData.cs",
+              "RelativeDocumentMoniker": "ScoreData.cs",
+              "ToolTip": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\ScoreData.cs",
+              "RelativeToolTip": "ScoreData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:49:56.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\MainWindow.xaml",
@@ -41,7 +109,7 @@
               "ToolTip": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-30T07:47:54.362Z",
+              "WhenOpened": "2024-05-14T17:22:59.514Z",
               "EditorCaption": ""
             },
             {
@@ -50,11 +118,11 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDAAAAANAAAA",
+              "ToolTip": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAswKEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T07:47:50.626Z",
+              "WhenOpened": "2024-05-14T16:51:28.277Z",
               "EditorCaption": ""
             }
           ]

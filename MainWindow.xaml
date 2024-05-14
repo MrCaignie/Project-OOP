@@ -1,10 +1,14 @@
-﻿<Window 
+﻿<Window x:Class="JudoScoreboard.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Judo Scoreboard Vertical" SizeToContent="Height" Width="300">
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JudoScoreboard"
+        Title="Judo Scoreboard" SizeToContent="Height" Width="525" FontSize="40"
+        KeyDown="Window_KeyDown">
 
     <StackPanel Orientation="Vertical">
-        <!-- Witgedeelte met twee verticale secties -->
+        <!-- Widgetgedeelte met twee verticale secties -->
         <Grid Grid.Row="0" Background="White">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
@@ -14,11 +18,13 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock FontSize="24" Text="Score: 1" />
+                <!-- Voeg een Name-attribuut toe aan het TextBlock-element -->
+                <TextBlock x:Name="WhiteScoreTextBlock" Text="0"/>
             </StackPanel>
 
             <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock FontSize="24" Text="Shido: 1" />
+                <!-- Voeg een Name-attribuut toe aan het TextBlock-element -->
+                <TextBlock x:Name="WhiteFoutTextBlock" Text="0" />
             </StackPanel>
         </Grid>
 
@@ -32,26 +38,39 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock FontSize="24" Text="Score: 1" Foreground="White"/>
+                <!-- Voeg een Name-attribuut toe aan het TextBlock-element -->
+                <TextBlock x:Name="BlueScoreTextBlock" Text="0" Foreground="White"/>
+                <!-- Voeg een Name-attribuut toe aan het TextBlock-element -->
             </StackPanel>
 
-            <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock FontSize="24" Text="Shido: 1" Foreground="White" />
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                <!-- Voeg een Name-attribuut toe aan het TextBlock-element -->
+                <TextBlock x:Name="BlueFoutTextBlock" Text="0" Foreground="White"/>
             </StackPanel>
         </Grid>
 
         <!-- Zwart gedeelte -->
         <Grid Background="Black" >
             <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top">
-                <TextBlock FontSize="20" Foreground="White" Text="GS" />
+                <TextBlock FontSize="20" Foreground="Gold" Text="Gold Score" Name="GoldenScore" Visibility="Hidden"/>
             </StackPanel>
             <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom">
-                <TextBlock FontSize="20" Foreground="White" Text="-90kg" />
+                <TextBlock FontSize="20" Foreground="White" Name="Weighttxtbx" />
             </StackPanel>
-            <TextBlock FontSize="20" Foreground="White" Text="U21" Margin="63,27,202,0" Height="24" VerticalAlignment="Top"/>
-            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                <TextBlock FontSize="40" Foreground="White" Text="0:00" />
+            <TextBlock FontSize="20" Foreground="White" Name="Agetxtbx" Margin="68,40,391,0" Height="24" VerticalAlignment="Top"/>
+            <Label Name="geslachtlbl" Background="Black" Margin="102,3,321,37" Foreground="White" FontSize="15"></Label>
+            <Label Foreground="White" FontSize="40" Content="+" Margin="173,0,290,0" Visibility="Hidden" VerticalAlignment="Center"  Name="PlusLabel"/>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="100">
+                <TextBlock FontSize="40" x:Name="Timertxtblock" Foreground="White" Text="00:00" Width="100" Height="50" />
+                <!-- Voeg een Name-attribuut toe aan het TextBlock-element -->
             </StackPanel>
+
+            <!-- Timer en ProgressBar -->
+            <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10">
+                <TextBlock FontSize="20" Foreground="White"  HorizontalAlignment="Center" Name="Timer20txtbx" Visibility="Hidden"/>
+                <ProgressBar x:Name="ProgressBar" Height="10" Width="150" Minimum="0" Maximum="20" Value="20" Foreground="Red" Background="White" BorderBrush="White" Visibility="Hidden" />
+            </StackPanel>
+            
         </Grid>
     </StackPanel>
 </Window>

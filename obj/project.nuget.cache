@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AGAFcVgCKtxfcvbNf8DCRgoCWVqcsJ0bgScE6uw5FK9soQdETjyCv7dhtTC2TjD78VWEH4smIAZRqzfJboSMhg==",
+  "dgSpecHash": "HWp6+C7LWKwwNxHqJ2jx/fRJ5WdLNl18KUoikONz9oCXxTKSj7DeGoxUtOehX5uaI1AwD5WeV9BuaxDODIFUTA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hoofdgebruiker\\Desktop\\C#\\Project_Judo\\Project_Judo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Hoofdgebruiker\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
